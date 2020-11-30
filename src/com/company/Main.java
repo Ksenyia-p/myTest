@@ -3,8 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
-        System.out.println("New world");
+        Vigure v=new Vigure(10,20);
+        Square s=new Square(10);
+        Treug t= new Treug(5,6,7);
+        t.vol();
+
     }
 
 }
